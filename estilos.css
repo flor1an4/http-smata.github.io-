@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #008000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo { /* logo,medidas/*/
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.title { /* el titulo,tipo de letra,color y tamaño/*/
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+/* config del menu de exploracion general/*/
+.menu {
+    display: flex; 
+    gap: 20px;
+}
+/* general/*/   
+ nav ul {list-style: none;
+    padding: 0;
+   
+    }
+nav li {
+line-height: 3rem;
+position: relative;
+ 
+}
+nav li ul {
+position: absolute;
+
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff; /*color de las letras/*/
+    display: block;
+    padding: 0 2.5em;
+    transition: .4s;
+    font-size: 12px; /*tamaño de letras /*/
+    font-weight: bold;
+}
+nav a:hover {
+background: #005000;
+}
+
+/* nav li ul{
+display: none;
+} */
+/* nav li:hover ul{
+    display: block;
+} */
+/*nav ul ul ul{ 
+    display: none;
+}/*/
+    
+
+/* primer nivel/*/
+nav > ul {
+    background: #008000;
+    display: table;
+}
+
+nav > ul > li {
+float: left;
+}
+/* segundo nivel/*/
+nav li li{
+    background: #017501;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .6s;
+    width: 300px;
+    /* height: 100px; */
+}
+
+nav li:hover > ul > li {
+    max-height: 500px;
+    overflow: visible;
+
+}
+
+nav > ul> li >ul {
+    top: 150%;
+    
+}
+.content {
+    padding: 20px;
+}

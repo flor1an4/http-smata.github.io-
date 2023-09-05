@@ -147,7 +147,7 @@ background: #008000;
 
 /* primer nivel/*/
 nav > ul {
-    background: #008000;
+    background: #026d02;
     display: table;
 }
 
@@ -156,7 +156,7 @@ float: left;
 }
 /* segundo nivel/*/
 nav li li{
-    background: #017501;
+    background: #026d02;
     max-height: 0;
     overflow: hidden;
     transition: all .6s;
@@ -177,3 +177,5 @@ nav > ul> li >ul {
 .content {
     padding: 20px;
 }
+
+/* PIE DE PAGINA */

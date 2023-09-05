@@ -5,7 +5,7 @@ body {
 }
 /*encabezado de la pagina */
 .header {
-    background-color: #008000;
+    background-color: #026d02;
     display: flex;
     justify-content: space-between;
     align-items: center;
